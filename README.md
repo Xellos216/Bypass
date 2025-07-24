@@ -82,19 +82,14 @@ README.md 상에 명시된 바와 같이 아이디어의 무단 도용 및 상�
 
 ---
 
-### 🧪 향후 실험 계획
-
-- 세션/쿠키 기반 자동화 확장 실험
-
----
-
 ### 📁 실험별 상세 문서
 
 | 문서 | 내용 |
 |------|------|
 | `01_Mobile_bypass_try_charles.md` | Charles를 통한 SSL 복호화 및 분석 시도 |
 | `02_Mobile_bypass_try_mitmproxy.md` | mitmproxy 기반 HTTP/1.1 다운그레이드 실험 |
-| `03_Mobile_bypass_try_inspect_browser.md` | Inspect Browser로 뷰포트 조정 통한 우회 성공 사례 |
+| `03_Mobile_bypass_try_inspect_browser.md` | Inspect Browser로 뷰포트 조정 통한 우회 성공 |
+| `04_Mobile_bypass_try_iOS.md` | iOS, Safari Viewport 1280x800 변경으로 모바일 우회 |
 
 ---
 
@@ -107,6 +102,7 @@ mobile-bypass-experiment/
 ├── Mobile_bypass_try_charles.md
 ├── Mobile_bypass_try_mitmproxy.md
 ├── Mobile_bypass_try_inspect_browser.md
+├── Mobile_bypass_try_iOS.md
 ├── QA.md
 ├── us_patch.py
 └── README.md
